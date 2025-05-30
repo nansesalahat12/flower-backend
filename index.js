@@ -30,6 +30,6 @@ app.use('/api/messages', messageRoutes);
 
 
 // تشغيل السيرفر على IP الشبكة المحلية
-app.listen(PORT, '0.0.0.0', () => {
-  console.log(`✅ Server Running on http://192.168.1.15:${PORT}`);
+app.listen(PORT, () => {
+  console.log(`✅ Server is running on port ${PORT}`);
 });
