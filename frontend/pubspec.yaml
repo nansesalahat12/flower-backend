@@ -1,0 +1,84 @@
+name: frontend
+description: "A new Flutter project."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.7.2 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  firebase_core: ^2.30.0
+  firebase_auth: ^4.17.4
+  http: ^1.2.1
+  easy_localization: ^3.0.3
+  image_picker: ^0.8.5+3
+  shared_preferences: ^2.2.2
+  video_player: ^2.7.0  # إضافة حزمة الفيديو هنا
+  smooth_page_indicator: ^1.1.0
+  carousel_slider: any
+  firebase_storage: ^11.6.0
+  lucide_icons: 0.257.0
+  
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/flower1.png
+    - assets/flower2.png
+    - assets/flower3.png
+    - assets/flower4.png
+    - assets/flower5.png
+    - assets/flower6.png
+    - assets/flower7.png
+    - assets/flower8.png
+    - assets/flower9.png
+    - assets/flower10.png
+    - assets/flower11.png
+    - assets/flower12.png
+    - assets/flower13.png
+    - assets/flower14.png
+    - assets/flower15.png
+    - assets/flower16.png
+    - assets/logo.png
+
+    - assets/wedding.png
+    - assets/تخرج.png
+    - assets/love.png
+    - assets/gift.png
+
+    - assets/translation/en-US.json
+    - assets/translation/ar-AE.json
+
+    - assets/red.png
+    - assets/white.png
+    - assets/pink.png
+    - assets/tulip.png
+    - assets/sunflower.png
+    - assets/lily.png
+    - assets/basket.png
+    - assets/slide1.png
+    - assets/slide2.png
+    - assets/slide3.png
+
+    - assets/white.png
+    - assets/tulip.png
+    - assets/lily.png
+    - assets/sunflower.png
+    - assets/ribbons/وردي_ribbon.png
+    - assets/ribbons/ذهبي_ribbon.png
+    - assets/ribbons/أبيض_ribbon.png
+    - assets/wraps/كرتون_وردي.png
+    - assets/wraps/سيلوفان_شفاف.png
+    - assets/wraps/قماش_كتان.png
+
+  fonts:
+    - family: Cairo
+      fonts:
+        - asset: assets/fonts/Cairo-Regular.ttf
+        - asset: assets/fonts/Cairo-Bold.ttf
+          weight: 700

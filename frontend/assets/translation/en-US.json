@@ -1,0 +1,23 @@
+{
+  "app_name": "Flower Tale",
+  "welcome": "Welcome",
+  "customize_bouquet": "Customize Your Bouquet",
+  "ready_bouquets": "Ready Bouquets",
+  "cart": "Shopping Cart",
+  "search": "Search",
+  "select_language": "Select Language",
+  "start": "Start",
+  "switch_to_arabic": "Arabic",
+  "switch_to_english": "English",
+  "login": "Login",
+  "to_continue": "To continue",
+  "email": "Email",
+  "password": "Password",
+  "log_in": "LOG IN",
+  "no_account_sign_up": "Don't have an account? Sign Up",
+  "enter_email_password": "Please enter email and password",
+  "login_success": "Login successful!",
+  "login_failed": "Login failed. Try again.",
+  "error": "Error"
+  
+}
