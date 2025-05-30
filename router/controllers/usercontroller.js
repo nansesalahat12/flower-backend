@@ -1,4 +1,4 @@
-const bcrypt = require('bcrypt');
+const bcrypt = require('bcryptjs');
 const { User } = require('../../model/usermodel.js'); // تأكد من أن المسار صحيح
 
 // دالة تسجيل المستخدم
